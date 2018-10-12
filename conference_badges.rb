@@ -19,7 +19,9 @@ end
 def printer(attendees)
   badges = []
   batch_badge_creator(attendees).each do |attendee|
-    badges.push()
+    badges.push(batch_badge_creator(attendees))
+  end
+puts badges
   
     
   
