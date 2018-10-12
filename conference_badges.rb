@@ -24,8 +24,6 @@ def printer(attendees)
     i += 1
   end
 
-  for attendees in assign_rooms(attendees) do
-    puts assign_rooms(attendees)
-  end
+ 
  
 end
