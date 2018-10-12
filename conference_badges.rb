@@ -17,9 +17,9 @@ return list_of_assignments
 end
 
 def printer(attendees)
-  badges = []
+  
   batch_badge_creator(attendees).each do |attendee|
-    badges.push(batch_badge_creator(attendees))
+    puts batch_badge_creator(attendees)
   end
 puts badges
   
